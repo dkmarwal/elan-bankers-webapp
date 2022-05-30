@@ -1,0 +1,345 @@
+$tableHeaderFooterBackground: rgb(246, 249, 250) !important;
+$borderColorLight: #ffffff !important;
+$borderColorDark: #000000 !important;
+$tableBodyBackground: #d8dfe2 !important;
+$colorDark: #000000 !important;
+$colorLight: #ffffff !important;
+$palleteBackgroundColorPrimary: #dff3fd !important;
+$palleteBackgroundColorSecondary: #e9f4f7 !important;
+$palleteButtonBackgroundColorPrimary: #79aecd !important;
+$palleteButtonBackgroundColorSecondary: #ffffff !important;
+$circularLoaderColor: #79aecd !important;
+$tabsIndicatorColor: #000000 !important;
+$filterSectionBackground: #d8dfe2 !important;
+$switchThumbColor: #5e8bad !important;
+$transparent: transparent !important;
+$disabledBackground: #dadada !important;
+$linkColor: #2e82e2 !important;
+
+// Light theme
+.T002 {
+  // sets background color for whole application
+  background: $palleteBackgroundColorSecondary;
+  //   filter: saturate(1.5);
+  div,
+  b,
+  th,
+  span {
+    b {
+      color: $colorDark;
+    }
+    color: $colorDark;
+  }
+
+  //svgs
+  svg {
+    color: $colorDark;
+  }
+  .MuiSvgIcon-root {
+    color: $colorDark;
+  }
+
+  //circular loader color
+  .MuiCircularProgress-svg {
+    color: $circularLoaderColor;
+  }
+
+  // tab indicators
+  .MuiTabs-indicator {
+    background: $tabsIndicatorColor;
+  }
+
+  //input fields
+  input,
+  .MuiInputBase-root {
+    background: $colorLight;
+    color: $colorDark;
+  }
+
+  // react datepicker css
+  .react-datepicker__month-container {
+    .react-datepicker__day,
+    .react-datepicker__day-name,
+    .react-datepicker__current-month {
+      color: $colorDark;
+    }
+    .react-datepicker__day--selected {
+      background: $palleteBackgroundColorSecondary;
+    }
+    .react-datepicker__day--disabled {
+      opacity: 0.5;
+    }
+  }
+
+  //select dropdowns and contents
+  .MuiSelect-root,
+  .MuiMenu-list {
+    background: $colorLight;
+    color: $colorDark;
+  }
+
+  //Logout link
+  .MuiLink-root {
+    color: $colorDark;
+  }
+
+  // css to make logo brighter specific to dark theme
+  #header .logo-wrap img {
+    // filter: brightness(1.6);
+  }
+
+  //css for paper and cards.
+  .MuiPaper-root {
+    // card properties
+    background: $palleteBackgroundColorPrimary;
+    color: $colorDark;
+  }
+
+  //css specific to filter content
+  .filterWrap {
+    background: $filterSectionBackground;
+  }
+
+  //css specific to tables
+  table {
+    thead {
+      tr {
+        background: $colorLight;
+        text-shadow: none;
+        th {
+          background: $colorLight;
+          text-shadow: none;
+          span {
+            text-shadow: none;
+          }
+        }
+      }
+    }
+    tbody {
+      background: $tableBodyBackground;
+      tr {
+        background: $tableBodyBackground;
+        td,
+        .zui-sticky-col {
+          text-shadow: none !important;
+          background: $tableBodyBackground;
+        }
+      }
+      td {
+        background: $tableBodyBackground;
+        color: $colorDark;
+        .avatarGrey {
+          span {
+            color: $colorDark;
+          }
+        }
+        span {
+          color: $colorDark;
+          opacity: 1;
+          text-shadow: none !important;
+          font-weight: 500;
+          filter: contrast(1.4);
+        }
+      }
+    }
+
+    tfoot {
+      opacity: 1;
+      tr,
+      td,
+      div {
+        background: $colorLight;
+        color: $colorLight;
+        div {
+          background: $colorLight;
+          color: $colorDark;
+        }
+      }
+    }
+
+    //footer
+    .MuiTableFooter-root {
+      background: $colorLight;
+      color: $colorDark;
+    }
+  }
+
+  //permissions css
+  .settingsWrapper {
+    .MuiPaper-root {
+      .rectangle {
+        background: $palleteBackgroundColorPrimary;
+        .rectangleTitle {
+          color: $colorDark;
+        }
+      }
+    }
+  }
+
+  //settings Page css
+  .settingsWrapper {
+    .oval {
+      background: $colorLight;
+    }
+  }
+
+  //thank you screen css
+  .card {
+    background: $palleteBackgroundColorPrimary;
+  }
+  #supportTicket {
+    .MuiGrid-root {
+      .MuiBox-root {
+        background: $palleteBackgroundColorPrimary;
+        color: $colorDark;
+        border: none;
+      }
+    }
+  }
+
+  // css for selected tabs
+  button.Mui-selected {
+    background: $palleteButtonBackgroundColorPrimary;
+    span {
+      color: $colorLight;
+    }
+  }
+
+  //taxation screen css
+  .taxationWrapper {
+    .editLinkBtn {
+      color: $linkColor;
+    }
+  }
+
+  #taxation-list-view {
+    //specific to taxation Form
+    #taxation-form {
+      background: $transparent;
+      div[id^="page"] {
+        color: $colorDark;
+        div,
+        span {
+          color: $colorDark;
+        }
+      }
+      .MuiPaper-root {
+        background: $transparent;
+        color: $colorDark;
+      }
+      .MuiBox-root {
+        background: $transparent;
+        color: $colorDark;
+      }
+      .MuiButton-outlinedPrimary {
+        border: 1px solid $colorDark;
+      }
+      .MuiButtonBase-root {
+        color: $colorDark;
+        background: $transparent;
+      }
+      .MuiButton-label {
+        color: $colorDark;
+      }
+      .partSubheading {
+        color: $colorDark;
+        background: $colorLight;
+        opacity: 1;
+      }
+
+      //table inside taxation form
+      table {
+        thead {
+        }
+        tbody {
+          tr {
+            td {
+              background: $pureWhite;
+              color: $colorDark;
+            }
+          }
+        }
+      }
+    }
+
+     //buttons inside taxation form
+     .MuiButton-root, .MuiButton-outlined, .MuiButton-outlinedPrimary, .MuiButton-root {
+        border: 1px solid $colorDark;
+     }
+  }
+
+  //promotion collapse buttons
+  .promotion-expanded-button-container {
+    .MuiButtonBase-root {
+      background: $palleteButtonBackgroundColorPrimary;
+      span {
+        color: $colorLight;
+      }
+    }
+  }
+
+  // promotion expanded item
+  .promotion-expanded-item {
+    span {
+      color: $colorDark;
+    }
+  }
+
+  //button css
+  .MuiButton-contained {
+    background: $palleteButtonBackgroundColorPrimary;
+    color: $colorLight;
+    span {
+      color: $colorLight;
+    }
+  }
+  .clearBtn,
+  .btnCancel,
+  .noBtn,
+  .SupportTicket-backBtn-196 {
+    background: $palleteButtonBackgroundColorSecondary;
+    border: 0.6px solid $colorLight;
+    span {
+      color: $colorDark;
+    }
+  }
+  .save {
+    span {
+      color: $colorLight;
+    }
+  }
+  .MuiButton-root {
+    box-shadow: none !important;
+    border: 0.6px solid $borderColorLight;
+  }
+
+  // reports save button.
+  a,
+  span {
+    .btn,
+    .save,
+    .MuiButton-containedSizeSmall {
+      background: $palleteButtonBackgroundColorPrimary;
+      span {
+        color: $colorLight;
+      }
+    }
+  }
+
+  // label css
+  .MuiButton-label {
+    color: $colorDark;
+  }
+
+  //Switch Thumb color
+  .MuiSwitch-thumb {
+    color: $switchThumbColor;
+  }
+
+  //Add icon in Promotion Create screen
+  .MuiFab-primary {
+    background: $colorLight;
+    color: $colorDark;
+  }
+  color: $colorLight;
+}

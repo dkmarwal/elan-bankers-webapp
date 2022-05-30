@@ -1,0 +1,62 @@
+#fundOverview {
+
+	.fundsContainer{
+		padding: 1rem;
+		.fundoverViewtext{
+			font-size: 14px;
+			font-weight: 500;
+			color: #3a3b3f
+		}
+		.detail-container{
+			width: 100%;
+		}
+	
+		.section-title{
+			font-size: 14px;
+			font-weight: 500;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.43;
+			letter-spacing: -0.05px;
+			color: #3a3b3f;
+		}
+		.statusWrap{
+			display: flex;
+			flex-direction: column;
+		
+			.statusText{
+				font-size: 10px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				letter-spacing: 1.67px;
+				color: rgba(0, 0, 0, 0.85);
+				.statusColor{
+					display: inline-block;
+					width: 10px;
+					height: 10px;
+					border-radius: 100px;
+					background-color: #286787;
+					margin: 0px 4px;
+				}
+			}
+			.statusAmount{
+				font-size: 10px;
+				font-weight: 600;
+				margin-left: 18px;
+			}
+		}
+		.expiredFunds{
+			padding: 1rem 0 0 0;
+		}
+		.statusBarColor{
+			height: 18px;
+			background-color: #d8d8d8;
+			display: flex;
+			.statusProcessColor{
+				background-color: #b2c7d3;
+				width: 20%;
+			}
+		}
+	}
+}

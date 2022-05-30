@@ -1,0 +1,207 @@
+/* BMW Theme management pre-defined themes */
+$mainBackgroundDark: #12252f !important;
+$buttonBackground: #e8eaf2 !important;
+$buttonColor: #e8eaf2 !important;
+$backgroundDark: #001e30 !important;
+$backgroundLight: #e8eaf2 !important;
+$mainColorLight2: #d6d6d6 !important;
+$mainColorLight: #9fb8c5 !important;
+$mainColorDark: #2e3c63 !important;
+$mainColorDark2: #000000 !important;
+$transparent: transparent !important;
+$backgroundDark2: #333e49 !important;
+$pureWhite: #ffffff !important;
+$vivid1 : #1b9fb7 !important;
+
+// $
+.T003 {
+  // sets background color for whole application
+  background: $mainBackgroundDark;
+  filter: saturate(1.5);
+  div,
+  b,
+  span {
+    b {
+      color: $mainColorLight2;
+    }
+    color: $mainColorLight;
+  }
+
+  //svgs
+  svg {
+    color: $backgroundDark2;
+  }
+
+  //circular loader color
+  .MuiCircularProgress-svg {
+    color: $vivid1;
+  }
+
+  //input fields
+  input,
+  .MuiInputBase-root {
+    background: $mainColorLight2;
+    color: $mainColorDark2;
+  }
+
+  // react datepicker css
+  .react-datepicker__month-container {
+    .react-datepicker__day,
+    .react-datepicker__day-name,
+    .react-datepicker__current-month {
+      color: $mainColorDark2;
+    }
+  }
+
+  //select dropdowns and contents
+  .MuiSelect-root,
+  .MuiMenu-list {
+    background: $mainColorLight2;
+    color: $mainColorDark2;
+  }
+
+  //Logout link
+  .MuiLink-root {
+    color: $mainColorLight;
+  }
+
+  // css to make logo brighter specific to dark theme
+  #header .logo-wrap img {
+    filter: brightness(1.6);
+  }
+
+  //css for paper and cards.
+  .MuiPaper-root {
+    // card properties
+    background: $backgroundDark;
+    color: $mainColorLight;
+    border: 0.5px solid $mainColorLight;
+  }
+
+  //css specific to filter content
+  .filterWrap {
+    background: $backgroundDark;
+    border: 0.6px solid;
+  }
+
+  //css specific to tables
+  table {
+    thead {
+      tr {
+        background: $backgroundDark2;
+      }
+    }
+    tbody {
+      tr {
+        background: $backgroundDark;
+      }
+      td {
+        color: $mainColorLight;
+        span {
+          color: $mainColorDark2;
+          opacity: 1;
+          font-weight: 500;
+          filter: contrast(1.4);
+        }
+      }
+    }
+
+    //footer
+    .MuiTableFooter-root {
+      background: $backgroundDark2;
+      color: $mainColorLight;
+    }
+  }
+
+  //thank you screen css
+  .card {
+    background: $backgroundDark;
+  }
+  #supportTicket {
+    .MuiGrid-root {
+      .MuiBox-root {
+        background: $backgroundDark;
+        color: $mainColorLight;
+        border: none;
+      }
+    }
+  }
+
+  // css for selected tabs
+  button.Mui-selected {
+    background: $backgroundDark;
+  }
+
+  //specific to taxation Form
+  .taxationForm {
+    background: $backgroundDark;
+    div,
+    span,
+    b,
+    p {
+      color: $mainColorDark;
+    }
+    div[id^="page"] {
+      .partSubheading {
+        color: $mainColorLight;
+        opacity: 1;
+      }
+
+      input:disabled {
+        background: $pureWhite;
+      }
+    }
+    .MuiPaper-root {
+      background: $transparent;
+      color: $mainColorLight;
+    }
+    .MuiBox-root {
+      background: $transparent;
+      color: $mainColorLight;
+    }
+    .MuiButton-outlinedPrimary {
+      border: 1px solid $mainColorLight;
+    }
+    .MuiButtonBase-root {
+      color: $mainColorLight;
+      background: $transparent;
+    }
+    .MuiButton-label {
+      color: $mainColorLight;
+    }
+
+    //table inside taxation form
+    table {
+      thead {
+      }
+      tbody {
+        tr {
+          td {
+            background: $pureWhite;
+            color: $mainColorDark;
+          }
+        }
+      }
+    }
+  }
+
+  //button css
+  .MuiButton-contained {
+    background: $buttonBackground;
+    color: $mainColorLight;
+  }
+  .clearBtn,
+  .SupportTicket-backBtn-196 {
+    background: $mainColorLight;
+    border: 0.6px solid $mainColorLight2;;
+    span {
+      color: $pureWhite;
+    }
+  }
+
+  // label css
+  .MuiButton-label {
+    color: $mainColorDark;
+  }
+  color: $mainColorLight;
+}

@@ -1,0 +1,98 @@
+.employeeRewardsWrapper {
+  .MuiAppBar-root { z-index:auto}
+  .tabHeader {
+    background: transparent;
+    box-shadow: none;
+    button.MuiTab-root {
+     
+      color: #3a3b3f;
+      border: solid 1px #9ebdcf;
+      text-transform: capitalize;
+    }
+    .disabled {
+      opacity: 0.2 !important;
+      background: 
+      #c3c3c3 !important;
+      pointer-events: none !important;
+      cursor: not-allowed !important;
+    }
+    button.Mui-selected {
+      background: #9ebdcf;
+      transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      color: #ffffff;
+      font-family: Roboto;
+      font-size: 14px;
+      letter-spacing: -0.05px;
+      text-align: center;
+    }
+    .MuiTabs-indicator {
+      display: none;
+    }
+    .btnContainer {
+      float: right;
+      margin: 10px 0;
+    }
+    .btns {
+      margin: 0 26px 0 0;
+      border-radius: 1px;
+      box-shadow: 0 1px 3px 2px rgba(96, 148, 177, 0.26);
+      font-size: 14px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0;
+      letter-spacing: -0.05px;
+      text-align: center;
+      padding: 10px 40px;
+      text-transform: uppercase;
+      width: 108px;
+      padding: 21px 0;
+    }
+    h4{
+        margin-bottom:5px;
+    }
+    .save {
+      background-color: #1c4b6b;
+      color: #ffffff !important;
+      border:none;
+    }
+  }
+ 
+    .tabContent {
+        .MuiBox-root {
+            padding: 5px 24px;
+        }
+    }
+  //Table Styles
+  table {
+    th,
+    td {
+      text-align: center;
+    }
+    .oval {
+      box-shadow: 0 1px 2px 0 rgba(96, 148, 177, 0.48);
+      border-radius: 100%;
+      padding: 10px 6px 1px 6px;
+      img {
+        height: 18px;
+        width: 18px;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+    .actions {
+        display: inline-block;
+    .MuiFormGroup-root {
+        display: inline-block;
+    }
+    .oval {
+        vertical-align: middle;
+    }
+    .MuiSwitch-root {
+        margin: 0
+    }
+}

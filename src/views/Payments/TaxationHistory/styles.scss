@@ -1,0 +1,33 @@
+
+#taxationHistory-list-view {
+    .bubble {
+        color: white;
+        border-radius: 200px;
+        width: 50px;
+        height: 50px;
+        padding: 12px 10px;
+    }
+    .rw {
+        background: black;
+    }
+    .ss {
+        background: grey;
+    }
+    .filter_buttons {
+        button {
+            margin: 0 0 0 20px;
+            padding: 8px 30px;
+        } 
+    }
+    .filterWrap {  background-color: #f0f5f7;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        .MuiOutlinedInput-input {
+            padding: .7rem;
+            background-color: #fff;
+        }
+    }
+    .hiddenLabel {
+        display:none;
+    }
+}

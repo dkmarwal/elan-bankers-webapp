@@ -1,0 +1,24 @@
+#navbar{
+	.MuiTabs-flexContainer{
+		a{
+    		margin: 0rem 1.875rem;
+			.MuiButtonBase-root{
+				min-width: 0;
+				padding: 0;
+				opacity: 1;
+			}
+		    .MuiTab-wrapper {
+				font-family: Roboto;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 46px;
+				letter-spacing: normal;
+				color: #676767;
+				text-transform: initial;
+				font-weight: 500;
+		    }
+		}
+	}
+}

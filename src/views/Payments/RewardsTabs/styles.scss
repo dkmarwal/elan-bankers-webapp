@@ -1,0 +1,23 @@
+.RewardsTabContainer {
+
+button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
+    background: #216ba5 !important;
+    color: white;
+}
+.PrivateTabIndicator-colorSecondary-199 {
+    display: none;
+}
+
+ button.MuiTab-root {
+    color: #3a3b3f;
+    border: solid 1px #9ebdcf;
+    text-transform: capitalize;
+ }
+ .MuiTabs-indicator {
+    display: none;
+}
+    .MuiBox-root{
+        padding-top:20px !important;
+        padding-bottom:0px;
+    }
+}

@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	background-color: #fbfbfb;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+}
+.loader{
+	&.padding
+	&.centered{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+.no-padding{
+	padding: 0 !important;
+}
+.welcome-message{
+	font-size: 25px;
+	margin: 1rem 0rem 2rem 0rem;
+	color: #827f7f;
+}
+.item-count{
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 3px;
+	color: #1c4b6b;
+}
+.list-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem 0rem;
+}
+.button-normal{
+	font-weight: 400 !important;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: -0.05px !important;
+	opacity: 0.8;
+}
+ul.error{
+	padding: 0;
+	padding-left: 1rem;
+	li{
+		margin: 0.5rem 0rem;
+	}
+}
+.inputLabel{
+	color: #676767;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0.5rem 0;
+	display: block;
+}
+.inputField{
+	border: solid 1px #dfe1ef;
+	background-color: #fff;
+}
+.react-datepicker-wrapper{
+	width: calc(100% - 1rem);
+	input{
+		cursor: pointer;
+	}
+}
+.flex-container{
+	display: flex;
+	&.vertical-center{
+		align-items: center;
+	}
+	&.horizontal-center{
+		justify-content: center;
+	}
+}
+.full-width{
+	width: 100%;
+}
+.full-height{
+	height: 100%;
+}
+.black{
+	color: #222;
+}
+.white{
+	color: #fff;
+}
+.list-title{
+	font-size: 16px;
+	letter-spacing: normal;
+	color: #3f3f3f;
+}
+.file-status{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: -0.05px;
+	text-align: center;
+	width: 140px;
+	display: block;
+	&.rejected{	
+		opacity: 1;
+		background-color: #d8667f;
+		color: #842438;
+	}
+	&.processed,
+	&.approved{
+		opacity: 0.87;
+		background-color: #53caa7;
+		color: #1b4c3e;
+	}
+	&.initiated,
+	&.pending{
+		opacity: 0.87;
+		background-color: rgba(235, 166, 97, 0.72);
+		color: #1b4c3e;
+	}
+}

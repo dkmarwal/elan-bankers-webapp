@@ -1,0 +1,10 @@
+version: 0.0 
+os: linux
+
+files:
+  - source: /
+    destination: /bmw_banker
+hooks:
+  AfterInstall:
+    - location: ./run_cmd.sh
+      runas: root

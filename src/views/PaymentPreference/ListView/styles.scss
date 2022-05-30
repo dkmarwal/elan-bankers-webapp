@@ -1,0 +1,56 @@
+
+#payment-preference-list-view{
+	.MuiBox-root {
+        margin :0
+    }
+	.tabContent .MuiBox-root {
+		padding: 3rem;
+		margin: 0px;
+	}
+	.selectedTab {
+		.MuiTab-wrapper {
+			border: 1.5px solid #0c5f87;
+		   font-weight: 700;
+		   color: "black" 
+		}
+	}
+	
+	.button-normal{
+		font-size: 14px;
+		color: #ffffff;
+		text-transform: capitalize;
+	}
+	.filter-button{
+		cursor: pointer;
+	}
+	 .filterWrap {
+		background-color: #f0f5f7;
+		padding: 1.5rem;
+		margin-bottom: 1.5rem;
+		.react-datepicker-wrapper{
+			width: 100%;
+			.dateField {
+				width: calc(100% - 1.4rem);
+				height: 1.1875em;
+				min-width: 0;
+				background: none;
+				box-sizing: content-box;
+				animation-name: MuiInputBase-keyframes-auto-fill-cancel;
+				-webkit-tap-highlight-color: transparent;
+				outline: none;
+				border: solid 1px #dfe1ef;
+				background-color: #fff;
+				padding: 0.7rem
+			}
+		}
+		.clearBtn{
+			padding: 7px 30px;
+			margin: 0 20px 0 0;
+		}
+		.MuiOutlinedInput-input{
+			padding: .7rem;
+			background-color: #fff;
+		}
+	}
+	 button.MuiTab-root {border: none;}
+}

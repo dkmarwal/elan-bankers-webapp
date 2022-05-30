@@ -1,0 +1,43 @@
+{
+    "leftMenu": [
+            {
+                "url": "/redeem",
+                "name": "Redeem",
+                "items": []
+            },
+            {
+                "url": "/payments",
+                "name": "Payments",
+                "items": []
+            },
+            {
+                "url": "/payment-preference",
+                "name": "Payment Preference",
+                "items": []
+            },
+            {
+                "url": "/support",
+                "name": "Support",
+                "items": []
+            },
+            {
+                "url": "/bankers",
+                "name": "Employee Rewards",
+                "items": []
+            }
+    ],
+    "rightMenu": [
+        {
+            "url": "/notifications",
+            "name": "Notifications",
+            "icon": "~/images/setting-icon.png",
+            "items": []
+        },
+        {
+            "url": "/account",
+            "name": "Account",
+            "icon": "~/images/user-icon.png",
+            "items": []
+        }
+    ]
+}

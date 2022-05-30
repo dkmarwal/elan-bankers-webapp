@@ -1,0 +1,58 @@
+#support-status-view{
+    margin-top:40px;
+	.button-normal{
+		font-size: 14px;
+		color: #ffffff;
+		text-transform: capitalize;
+	}
+	.filter-button{
+		cursor: pointer;
+	}
+	 .filterWrap {
+		background-color: #f0f5f7;
+		padding: 1.5rem;
+		margin-bottom: 1.5rem;
+		.inputLabel{
+			color: #76777b;
+			font-size: 14px;
+			font-weight: 500;
+			margin: 0.5rem 0;
+			display: block;
+		}
+		.inputField{
+			border: solid 1px #dfe1ef;
+			background-color: #fff;
+		}
+		.react-datepicker-wrapper{
+			width: 100%;
+			.dateField {
+				width: calc(100% - 1.4rem);
+				height: 1.1875em;
+				min-width: 0;
+				background: none;
+				box-sizing: content-box;
+				animation-name: MuiInputBase-keyframes-auto-fill-cancel;
+				-webkit-tap-highlight-color: transparent;
+				outline: none;
+				border: solid 1px #dfe1ef;
+				background-color: #fff;
+				padding: 0.7rem
+			}
+		}
+		.clearBtn{
+			padding: 7px 30px;
+			margin: 0 20px 0 0;
+		}
+		.MuiOutlinedInput-input{
+			padding: .7rem;
+			background-color: #fff;
+		}
+	}
+	.trackText{ color: #1c4b6b; font-size: 18px;font-weight: 500;}
+    .list-divider{height:5px !important}
+    .MuiOutlinedInput-input{padding: 12px 14px;}
+    #ticket-detail{
+            padding: 8px;
+            height: 70px;
+        }
+}

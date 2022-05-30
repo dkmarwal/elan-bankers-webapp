@@ -1,0 +1,50 @@
+#header {
+	position: fixed;
+    width: inherit;
+    max-width: inherit;
+    z-index: 999;
+    .header-top{
+        border-bottom: solid 1px #d4d4d4;
+    }
+    .logo-wrap{
+        padding:0.5rem 1.875rem;
+        font-size: 16px;
+        color: #051b2a;
+        img {
+            width: 240px;
+        }
+    }
+    .navBar{box-shadow: 0 1px 1px 0 rgba(96, 148, 177, 0.45); margin-bottom: 1.5rem;}
+    .RightSection {
+        float: right;
+    .LeftNav {
+        float: left;
+        span {
+            font-size: 14px;
+            font-weight: 500;
+            color: #676767;
+            margin: 10px;
+            b {
+               color: black; 
+            }
+            }
+        }
+    }
+    .RightNav{
+        display: flex;
+        justify-content: flex-end;
+        button{
+            padding:0 0.5rem;
+            padding-right: 1rem;
+            font-size: 13px;
+            align-items: center;
+            display: flex;
+            flex-flow: column;
+            text-transform: uppercase;
+            color: #286787;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}

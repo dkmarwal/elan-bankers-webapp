@@ -1,0 +1,17 @@
+#payment-tracker{
+    .MuiStepIcon-completed {color:#8c9d6f}
+    .MuiStepIcon-text {display:none !important}
+}
+.createSupportLink::hover, 
+.createSupportLink:hover {
+    text-decoration: underline !important;
+}
+.datetimelabel{
+    .time ,.date {
+        text-align: center !important;
+    }
+    margin: 10px 0 0 0;
+}
+[data="first"] {
+    .MuiStepIcon-completed {color:grey !important}
+}

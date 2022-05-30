@@ -1,0 +1,114 @@
+$fontSize14:14px;
+$colorGreen:#b5d394;
+$capitalize: capitalize;
+$none:none;
+#updateViewContainer {
+	margin: 1.5rem 0;
+	.updateContainer{
+		padding:1.5rem 1rem 3rem 1rem;
+		button{
+			box-shadow: $none;
+		}
+		.HeadingPromotion{
+			font-size: 20px;
+			color: #3f3f3f;
+			font-weight: 500;
+			padding: 0 0 1.5rem 0;
+		}
+		.ProText{
+			font-size: $fontSize14;
+			color: #707070;
+			padding-bottom: 0.5rem;
+		}
+		.padTop{
+			padding-top:1.5rem
+		}
+		.ProIdNum{
+			font-size: 24px;
+			color: #333333;
+			padding:0.5rem 0 0 0 ;
+		}
+		.inputFieldW100{
+			width: 80%;
+			padding: 0 0 1.5rem 0;
+			z-index: 0;
+		}
+		.ProStaus{
+			font-size: $fontSize14;
+			color:$colorGreen;
+			padding-top: 10px;
+		}
+		.HeadingFunds{
+			font-size: 20px;
+			color: #3f3f3f;
+			font-weight: 500;
+			padding: 4rem 0 1.5rem 0;
+		}
+		.btnDel{
+			color:$colorGreen;
+			font-size: $fontSize14;
+			margin: 1.5rem 0;
+		}
+		.btnDel,.btnCancel,.btnCreate {
+			margin-top:2rem ;
+			text-transform: $capitalize;
+			font-size: 16px;
+			min-width: 180px;
+		}
+		.btnCancel{
+			border: solid 2px #1c4b6b;
+			margin-right:1.5rem ;
+			padding: 7px 60px;
+			text-align: center;
+			color: #1c4b6b;
+		}
+		.datePicdesign {
+			border: solid 1px#c4c4c4;
+			color:#828080;
+			padding: 1rem;
+			width: 100%;
+			height: 18px;
+			font-size: 16px;
+			z-index: 9999
+		}
+        
+		.fund-input{
+			width: 80%;
+		}
+		&:focus{
+			border: 1px solid #c4c4c4;
+		}
+	}
+}
+.expiredAmount{
+	font-size: 30px;
+	color: #3f3f3f;
+	font-weight: 500;
+}
+.MaskedField {
+    padding: 15.5px 14px;
+    border: 1px solid #8080808f;
+    height: 20px;
+}
+.MaskedField:disabled {
+	background: white;
+    color: #b6b6b6;
+}
+.MaskedField:focus,.MaskedField:active, .MaskedField:hover  {
+   border: 1px solid black;
+   outline: none;
+}
+.noramlText{
+	font-size: 14px;
+	color: #a2a2a2;
+	font-weight: normal;
+}
+.mrTop{
+	margin-top: 3rem!important;
+}
+.PrivateTabIndicator-colorSecondary-326 {background-color: transparent !important;}
+#payment-preference-list-view .MuiTab-root {max-width:none !important;}
+#payment-preference-list-view .MuiTab-wrapper {border:1px solid #76777b; padding:10px 0px;}
+#payment-preference-list-view .editLinkBtn {padding:0 25px; color: #4379a3!important;}
+        
+
